@@ -27,6 +27,12 @@ Before getting started, make sure that you have a JavaScript console open (like 
    ```
 
 3. Calculate how old you are in minutes using the console.
+function howOldAreYou(birthyear) {
+let currentTime = new Date();
+let currentYear = currentTime.getFullYear();
+console.log(`You are ${currentYear - brithYear} old`});
+}
+howOldAreYou(1957);
 
 4. What is the percentage of people in the class with brown hair? Use the
    console to find out.
@@ -78,6 +84,6 @@ Before getting started, make sure that you have a JavaScript console open (like 
 
    ```js
    Where are all the quotes?
-   'hmm something is not right"
-   'Do other ' * 'operators work with string concatenation?
+   'hmm something is not right'
+   'Do other ' * 'operators work with string concatenation?'
    ```
